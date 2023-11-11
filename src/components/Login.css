@@ -1,0 +1,13 @@
+/* Login.css */
+.password-input {
+    position: relative;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  

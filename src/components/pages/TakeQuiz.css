@@ -1,0 +1,154 @@
+@media (min-width: 768px){
+.quiz {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .take-quiz {
+    flex: 1;
+    padding: 20px;
+    background-color: #b8aeb6;
+  }
+  
+  .selected-row {
+    color: #0073ff; /* Change this to the desired background color */
+    cursor: pointer; /* Optional: Change cursor to indicate interactivity */
+  }
+   
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .quiz-card{
+    
+    height: 58%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .question-slide {
+    margin-top: 20px;
+  }
+  
+  .option-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .option-list li {
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .correct-option {
+    background-color: #a6e22e; /* Green for correct answer */
+  }
+  
+  .incorrect-option {
+    background-color: #f92626; /* Red for incorrect answer */
+    color: #fff;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .reset-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .previous-button,
+  .next-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .previous-button:hover,
+  .next-button:hover {
+    background-color: #007bff; /* Blue hover color for buttons */
+    color: #fff;
+  }
+  
+  .previous-button[disabled],
+  .next-button[disabled] {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  .score{
+    margin-bottom: 0%;
+    
+  }
+ 
+
+/* Table Styles */
+.table-container {
+    max-height: 200px; /* Set the maximum height for the table */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  }
+  
+  .subscription-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .subscription-table th,
+  .subscription-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .subscription-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .subscription-table td {
+    background-color: #f9f9f9;
+  }
+  
+  .subscription-table tbody tr:hover {
+    background-color: #f5f5f5; /* Hover color for table rows */
+  }
+}

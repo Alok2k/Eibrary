@@ -1,0 +1,36 @@
+/* Header.css */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Background color */
+    padding-top: 5px; /* Adjust the top padding as needed */
+    padding-bottom: 5px; /* Adjust the bottom padding as needed */
+  }
+  
+
+  .navbar p {
+    font-size: 24px; /* Font size for the E-Library text */
+    color: #ffffff; /* Text color for the E-Library text */
+    margin: 0; /* Remove default margin */
+  }
+  
+
+  
+  .navbar-nav .nav-link:hover {
+    color: #17a2b8; /* Text color on hover */
+  }
+  
+  /* Logout Button Styles */
+  .navbar-nav .nav-link.logout-button {
+    color: #f20808; /* Text color for the logout button */
+    
+  }
+  
+  .navbar-nav .nav-link.logout-button:hover {
+    color: #dc3545; /* Text color on hover for the logout button */
+  }
+  .navbar-nav{
+    border-radius: 15%;
+    
+    background-color: #000000;
+  }

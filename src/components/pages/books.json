@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "value": 7,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "category": "Fantasy",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6FMUhBLlRCELbXU--5lBrQXeGQU1unDznA&usqp=CAU",
+        "subscribed": false,
+        "quizzes": [
+            {
+              "id": 1,
+              "title": "Quiz 1",
+              "questions": [
+                {
+                  "id": 1,
+                  "text": "What is the name of the school in Harry Potter?",
+                  "options": ["Hogwarts", "Beauxbatons", "Durmstrang"],
+                  "correctOption": "Hogwarts"
+                },
+                {
+                    "id": 2,
+                    "text": "Who is the author of the Harry Potter series?",
+                    "options": ["J.K. Rowling", "Stephen King", "George R.R. Martin"],
+                    "correctOption": "J.K. Rowling"
+                  },
+                  {
+                    "id": 3,
+                    "text": "What is the main character's name?",
+                    "options": ["Harry Potter", "Ron Weasley", "Hermione Granger"],
+                    "correctOption": "Harry Potter"
+                  },
+                  {
+                    "id": 4,
+                    "text": "What is the name of Harry's owl?",
+                    "options": ["Hedwig", "Crookshanks", "Scabbers"],
+                    "correctOption": "Hedwig"
+                }
+            ]
+          }
+        ]
+    },
+    {
+        "id": 2,
+        "value": 9,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J.K. Rowling",
+        "category": "Fantasy",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw5YOXOl1XYjM6wf1Vb4h0HV1rCHP10ULKFg&usqp=CAU",
+        "subscribed": false,
+        "quizzes": [
+            {
+              "id": 2,
+              "title": "Quiz 2",
+              "questions": [
+                {
+                  "id": 1,
+                  "text": "What is the name of the school in Harry Potter?",
+                  "options": ["Hogwarts", "Beauxbatons", "Durmstrang"],
+                  "correctOption": "Hogwarts"
+                },
+                {
+                    "id": 2,
+                    "text": "Who is the author of the Harry Potter series?",
+                    "options": ["J.K. Rowling", "Stephen King", "George R.R. Martin"],
+                    "correctOption": "J.K. Rowling"
+                  },
+                  {
+                    "id": 3,
+                    "text": "What is the main character's name?",
+                    "options": ["Harry Potter", "Ron Weasley", "Hermione Granger"],
+                    "correctOption": "Harry Potter"
+                  },
+                  {
+                    "id": 4,
+                    "text": "What is the name of Harry's owl?",
+                    "options": ["Hedwig", "Crookshanks", "Scabbers"],
+                    "correctOption": "Hedwig"
+                }
+            ]
+          }
+        ]
+    },
+    {
+        "id": 3,
+        "value": 5,
+        "title": "The Notebook",
+        "author": "Nicholas Sparks",
+        "category": "Romance",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhcYRDJKOtQRCWI3-FxSN3-8o3Id-cMbHwA&usqp=CAU",
+        "subscribed": false
+    },
+    {
+        "id": 4,
+        "value": 5,
+        "title": "Me Before You",
+        "author": "Jojo Moyes",
+        "category": "Romance",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr0dSS0bxgylpJ2Cwtldp06KJC2lI5H8l84g&usqp=CAU",
+        "subscribed": false
+    },
+    {
+        "id": 5,
+        "value": 13,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "category": "Classic",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWtYi2g8FNWG9EKyU9K_QI3W6dAOaH25tqKA&usqp=CAU",
+        "subscribed": false
+    },
+    {
+        "id": 6,
+        "value": 19,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "category": "Classic",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXX9WdEzn9z_DI45GzAdTvAtBLsAerTJ2_A&usqp=CAU",
+        "subscribed": false
+    }
+    ,
+    {
+        "id": 7,
+        "value": 10,
+        "title": "Iron Man",
+        "author": "Alok Bhatt",
+        "category": "Sci-Fi",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXX9WdEzn9z_DI45GzAdTvAtBLsAerTJ2_A&usqp=CAU",
+        "subscribed": false
+    }
+]

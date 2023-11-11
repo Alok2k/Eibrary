@@ -1,0 +1,68 @@
+/* Add these styles to your CSS file */
+.container-sidebar {
+    display: flex;
+    width: 30%;
+  }
+  
+  .sidebar {
+    width: 250px; /* Set a fixed width for the sidebar */
+    background-color: #000000;
+    color: #fff;
+    transition: width 0.3s;
+  }
+  
+  .sidebar.open {
+    width: 60px; /* Adjust the width when collapsed */
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Adjust this value to make space for the sidebar */
+    transition: margin-left 0.3s;
+  }
+  
+  .main-content.open {
+    margin-left: 60px; /* Adjust the margin when sidebar is collapsed */
+  }
+  
+  .bars {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .bars:hover {
+    background-color: #444;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .link:hover {
+    background-color: #444;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+  
+  .link .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .link_text {
+    transition: opacity 0.3s;
+  }
+  
+  .link_text.open {
+    opacity: 0;
+  }
+  

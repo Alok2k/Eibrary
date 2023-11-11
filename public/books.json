@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "value": 7,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "category": "Fantasy",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6FMUhBLlRCELbXU--5lBrQXeGQU1unDznA&usqp=CAU",
+        "subscriptions": 0
+    },
+    {
+        "id": 2,
+        "value": 9,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J.K. Rowling",
+        "category": "Fantasy",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw5YOXOl1XYjM6wf1Vb4h0HV1rCHP10ULKFg&usqp=CAU",
+        "subscriptions": 0
+    },
+    {
+        "id": 3,
+        "value": 5,
+        "title": "The Notebook",
+        "author": "Nicholas Sparks",
+        "category": "Romance",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhcYRDJKOtQRCWI3-FxSN3-8o3Id-cMbHwA&usqp=CAU",
+        "subscriptions": 0
+    },
+    {
+        "id": 4,
+        "value": 5,
+        "title": "Me Before You",
+        "author": "Jojo Moyes",
+        "category": "Romance",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr0dSS0bxgylpJ2Cwtldp06KJC2lI5H8l84g&usqp=CAU",
+        "subscriptions": 0
+    },
+    {
+        "id": 5,
+        "value": 13,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "category": "Classic",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWtYi2g8FNWG9EKyU9K_QI3W6dAOaH25tqKA&usqp=CAU",
+        "subscriptions": 0
+    },
+    {
+        "id": 6,
+        "value": 19,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "category": "Classic",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXX9WdEzn9z_DI45GzAdTvAtBLsAerTJ2_A&usqp=CAU",
+        "subscriptions": 0
+    }
+    ,
+    {
+        "id": 7,
+        "value": 10,
+        "title": "Iron Man",
+        "author": "Alok Bhatt",
+        "category": "Sci-Fi",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXX9WdEzn9z_DI45GzAdTvAtBLsAerTJ2_A&usqp=CAU",
+        "subscriptions": 0
+    }
+]

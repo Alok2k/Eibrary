@@ -1,0 +1,167 @@
+.ebook{
+  
+    display: inline-flex;
+   background-color: #000000;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+
+
+/* Container Styles */
+.ebook-container {
+  min-width: 1350px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.upperbox{
+ justify-content:center; 
+}
+h2{
+  text-align: center;
+}
+/* Filters Styles */
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.filter{
+  display: inline-flex;
+  justify-content: center;
+  display: flex;
+  gap:20px;
+  padding: 5px;;
+
+}
+.filter label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.search-bars{
+  display: inline-flex;
+  justify-content: center;
+  display: flex;
+  gap:20px;
+  padding: 5px;;
+}
+/* Subscription Form Styles */
+.subscribe-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button.active {
+  background-color: #0056b3;
+}
+
+/* eBook Card Styles */
+.ebook-list {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+.ebook-card {
+  flex: 1;
+  min-width: 280px; /* Set the minimum width of each card */
+  max-width: 280px; /* Set the maximum width of each card */
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.ebook-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-details {
+  padding: 20px;
+}
+
+.book-details h3 {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.book-details p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
