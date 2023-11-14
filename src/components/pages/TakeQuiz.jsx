@@ -22,6 +22,7 @@ const TakeQuiz = () => {
       setScore(storedScore);
     }
   }, []);
+  
 
   useEffect(() => {
     localStorage.setItem('totalScore', JSON.stringify(score));
